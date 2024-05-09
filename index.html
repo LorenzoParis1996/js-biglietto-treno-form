@@ -4,22 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Biglietto treno form</title>
 </head>
 
 <body>
-
-    <div>
-        <input type="text" id="km" placeholder="Inserisci i km da percorrere">
-    </div>
-    <div>
-        <input type="text" id="eta" placeholder="Inserisci la tua eta'">
-    </div>
-    <div>
-        <button id="my-button">calcola</button>
-    </div>
-    <div id="prezzoBiglietto"></div>
+    <main>
+        <section>
+            <h1>Viaggia Sereno</h1>
+            <div>
+                <label for="nome-cognome">Nome e Cognome</label>
+                <input type="text" id="nome-cognome" placeholder="Inserisci nome e cognome">
+            </div>
+            <div>
+                <label for="km">Distanza da percorrere</label>
+                <input type="text" id="km" placeholder="Inserisci i km da percorrere">
+            </div>
+            <div>
+                <label for="eta">Eta'passegero</label>
+                <input type="text" id="eta" placeholder="Inserisci la tua eta'">
+            </div>
+            <div>
+                <button id="my-button">calcola</button>
+            </div>
+            <div id="prezzoBiglietto"></div>
+        </section>
+    </main>
     <script src="./js/mysrcript.js"></script>
 </body>
+
 
 </html>
